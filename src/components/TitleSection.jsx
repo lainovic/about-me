@@ -22,7 +22,7 @@ const TitleSection = ({ style }) => {
         </Link>
       </h4>
       <h4>
-        <Link target="_blank" href="htpps://blog.emotionaldeveloper.com">
+        <Link target="_blank" href="https://blog.emotionaldeveloper.com">
           My writings
         </Link>
       </h4>
