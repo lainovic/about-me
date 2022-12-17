@@ -4,13 +4,11 @@ import Profile from "./Profile";
 
 const Wrapper = styled.div`
   background: hsla(227deg 20.5% 17.3% / 0.7);
-  justify-content: center;
-  align-items: center;
   width: 600px;
   padding: 32px;
 `;
 
-const BackCard = (props) => {
+const Card = () => {
   return (
     <Wrapper>
       <Profile />
@@ -18,4 +16,4 @@ const BackCard = (props) => {
   );
 };
 
-export default BackCard;
+export default Card;

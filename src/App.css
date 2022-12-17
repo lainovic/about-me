@@ -1,8 +1,0 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Inter', sans-serif;
-    background-image: linear-gradient(180deg,purple, yellow);
-    background-attachment: fixed;
-  }

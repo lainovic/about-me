@@ -1,16 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
-import Colors from "../config/Colors";
+import Link from "./Link";
 
 const Wrapper = styled.div`
   text-align: center;
-`;
-
-const Link = styled.a`
-  text-decoration: none;
-  color: ${Colors.white};
-  font-weight: 800;
 `;
 
 const TitleSection = ({ style }) => {

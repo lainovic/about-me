@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import Section from "./Section";
+import TextSection from "./TextSection";
 import TitleSection from "./TitleSection";
 import ContactSection from "./ContactSection";
 import SocialMediaSection from "./SocialMediaSection";
@@ -10,6 +10,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   color: white;
 `;
 
@@ -27,17 +28,17 @@ const Profile = () => {
       <Content>
         <TitleSection style={styles.section} />
         <ContactSection style={styles.section} />
-        <Section title="About Me" style={styles.section}>
+        <TextSection title="About Me" style={styles.section}>
           Hey, welcome.
           <br />I am a software developer with an enterpreneurial mindset. I am
           insatiably curious and interested in making things simple and
           intuitive.
           <br />I believe that technology has the power to raise our collective
           consciousness.
-        </Section>
-        <Section title="Interests" style={styles.section}>
-          Food nerd. Reader. Dancer. Self-improvement fanatic.
-        </Section>
+        </TextSection>
+        <TextSection title="Interests" style={styles.section}>
+          Food nerd. Voracious reader. Dancer. Self-improvement fanatic.
+        </TextSection>
       </Content>
       <SocialMediaSection />
     </Wrapper>

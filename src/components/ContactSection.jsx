@@ -24,10 +24,10 @@ const Button = styled.button`
   gap: 8px;
   font-size: 14px;
   border: none;
-  transition-duration: 0.3s;
-  opacity: 0.9;
+  transition-duration: 400ms;
+  /* opacity: 0.9; */
   &:hover {
-    opacity: 1;
+    opacity: 0.8;
   }
 `;
 

@@ -52,3 +52,10 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+/*
+  10. Make root take the entire viewport.
+*/
+#root {
+  height: 100%;
+}

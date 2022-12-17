@@ -9,7 +9,7 @@ const Wrapper = styled.div`
   line-height: 1.6rem;
 `;
 
-const Section = ({ style, title, children }) => {
+const TextSection = ({ style, title, children }) => {
   return (
     <Wrapper style={style}>
       <Header>{title}</Header>
@@ -18,4 +18,4 @@ const Section = ({ style, title, children }) => {
   );
 };
 
-export default Section;
+export default TextSection;
