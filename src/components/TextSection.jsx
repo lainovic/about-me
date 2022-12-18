@@ -5,7 +5,7 @@ const Header = styled.h2`
   font-weight: 600;
 `;
 
-const Wrapper = styled.div`
+const Wrapper = styled.section`
   line-height: 1.6rem;
 `;
 

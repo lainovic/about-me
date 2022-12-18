@@ -6,6 +6,7 @@ const Wrapper = styled.div`
   background: hsla(227deg 20.5% 17.3% / 0.7);
   width: 600px;
   padding: 32px;
+  margin-top: 48px;
 `;
 
 const Card = () => {

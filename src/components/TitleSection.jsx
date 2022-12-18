@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import Link from "./Link";
 
-const Wrapper = styled.div`
+const Wrapper = styled.section`
   text-align: center;
 `;
 
